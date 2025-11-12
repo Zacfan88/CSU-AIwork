@@ -20,3 +20,13 @@ env/
 # Logs and caches
 *.log
 .cache/
+
+# Lab artifacts (do not track non-code outputs/datasets)
+*.png
+*.csv
+*_overlay.txt
+maze-grid.txt
+outputs/
+dataset/
+**/outputs/
+**/dataset/
